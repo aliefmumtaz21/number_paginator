@@ -31,7 +31,6 @@ class PaginatorButton extends StatelessWidget {
             shape: InheritedNumberPaginator.of(context).config.buttonShape ??
                 const CircleBorder(),
             backgroundColor: _backgroundColor(context, selected),
-            foregroundColor: _foregroundColor(context, selected),
           ),
           child: child,
         ),
